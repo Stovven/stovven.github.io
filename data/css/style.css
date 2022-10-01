@@ -1,0 +1,17 @@
+body {
+    background-color: lightsalmon;
+    background-image: url('../images/s2oe10.png');
+    background-size: 50%;
+}
+#mainbody {
+    font-family: 'Mali';
+    text-align: center;
+}
+#title {
+    font-family: 'Mali';
+    text-align: center;
+    color: black;
+}
+#mainbody p {
+    font-size: 30px;
+}
