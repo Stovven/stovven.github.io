@@ -14,8 +14,14 @@ body {
     margin-bottom:50px;
     padding: 10px 0px 0px 50px;
 }
-#title {
-    font-family: 'Mali';
-    text-align: center;
-    color: black;
+.showcase {
+    display: flex;
+    text-align: left;
+}
+.showcase span {
+    padding: 10px;
+    font-size: 30px;
+}
+.showcase a {
+    color:rgb(160, 44, 238);
 }
