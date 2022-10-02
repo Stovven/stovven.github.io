@@ -54,28 +54,16 @@
     font-family: 'Gloria Hallelujah';
     font-size: 20px;
 }
-#mainbody p {
-    font-size: 30px;
-}
-body {
-    background-color: lightsalmon;
-    background-image: url('../images/s2oe10.png');
-    background-size: 50%;
-}
-#mainbody {
-    font-family: 'Mali';
-    text-align: center;
-    padding: 10px 0px 0px 50px;
-}
-#title {
-    font-family: 'Mali';
-    text-align: center;
-    color: black;
-}
 #footer footer {
-    text-align: center;
     background-color: rgb(240, 143, 52);
     color: white;   
     font-family: 'Gloria Hallelujah';
-    padding: 7px 0px 0px 7  px;
+    padding: 7px 0px 0px 7px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 2em;
+    font-size: small;
 }
