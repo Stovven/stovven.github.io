@@ -16,6 +16,8 @@ body {
 }
 #mainbody h1{
     font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 #mainbody p {
     font-size: 25px;
@@ -24,4 +26,9 @@ body {
     font-family: 'Mali';
     text-align: center;
     color: black;
+}
+#mainbody .penis {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
