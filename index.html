@@ -5,6 +5,7 @@
 </style> 
 <link rel="stylesheet" href="data/css/index.css">
 <link rel="stylesheet" href="data/css/header.css">
+<link rel="stylesheet" href="data/css/footer.css">
 <link rel="icon" href="data/images/icon.ico">
 <html>
     <head>
@@ -14,27 +15,21 @@
         <meta content="https://totallyanipgrabber.com/" property="og:url" />
         <meta content="https://totallyanipgrabber.com/data/images/yot.png" property="og:image" />
         <meta content="#4ced77" data-react-helmet="true" name="theme-color" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script> 
+            $(function(){
+            $("#header").load("data/shared/header.html"); 
+            $("#footer").load("data/shared/footer.html"); 
+            });
+        </script> 
     </head>
     <body>
-        <div class="header">
-            <div class="header2">
-                <div class="logocontainer">
-                    <h1>stoven.net v2</h1>
-                </div>
-
-                <ul class="sitelist">
-                    <a href="/index.html"><li>home</li></a>
-                    <a href="/request.html"><li>low quality images</li></a>
-                </ul>
-            </div>
-        </div>
+        <div id="header"></div>
         <div id="mainbody">
-        <h1 id="title">welcome to stoven.net v2</h1>
-        <p>hi i made this site, here's an image i picked out!!!</p>
-        <img src="data/images/yot.png" width="512" height="512">
-    </div>
-    <div id="footer"">
-        <footer>made by Stoven#7818</footer>
-    </div>
+            <h1 id="title">welcome to stoven.net v2</h1>
+            <p>hi i made this site, here's an image i picked out!!!</p>
+            <img src="data/images/yot.png" width="512" height="512">
+        </div>
+        <div id="footer"></div>
     </body>
 </html>

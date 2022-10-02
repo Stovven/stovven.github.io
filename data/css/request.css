@@ -7,11 +7,12 @@ body {
     background-size: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-bottom:50px;
 }
 #mainbody {
     font-family: 'Mali';
     text-align: center;
+    align-items: center;
     flex: 1 1 auto;  /*grow vertically*/
 }
 #mainbody h1{
