@@ -10,14 +10,19 @@
     height: 2em;
     font-size: small;
 }
+
 #main {
     text-align: center;
 }
 
 #blinkie {
     float: left;
+    height: 20px;
+    width: 150px;
 }
 
 #approved {
     float: right;
+    height: 31px;
+    width: 88px;
 }
