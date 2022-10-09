@@ -14,3 +14,10 @@
     text-align: center;
 }
 
+#blinkie {
+    float: left;
+}
+
+#approved {
+    float: right;
+}
