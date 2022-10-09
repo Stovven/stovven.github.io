@@ -1,8 +1,7 @@
 #footer div {
     background-color: rgb(240, 143, 52);
     color: white;   
-    font-family: 'Gloria Hallelujah';
-    padding: 7px 0px 0px 7px;
+    font-family: 'Gloria Hallelujah';   
     font-size: small;
 }
 
@@ -13,4 +12,12 @@
 #whole-footer {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+
+#approved {
+    padding-top: 10px;
 }
