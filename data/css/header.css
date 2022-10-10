@@ -8,7 +8,11 @@
     width: 100%;
     height: 80px;
     display: block;
-    background-color: rgb(240, 143, 52);
+    background-image: url('../images/s2bg1.png');
+    background-size: 100%;
+    background-position: 0;
+    background-blend-mode: luminosity;
+    background-color: #86cecb;
 }
 .header2{
     width: 75%;
@@ -50,7 +54,7 @@
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: white;
+    color: black;
     font-family: 'Gloria Hallelujah';
     font-size: 20px;
 }
