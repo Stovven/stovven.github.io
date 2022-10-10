@@ -64,7 +64,7 @@ body {
 }
 
 #bg2 {
-    background-color: rgb(255, 0, 0);
+    background-color: white;
     background-image: url('../images/s2bg1.png');
     background-size: 100%;
     color: black;
