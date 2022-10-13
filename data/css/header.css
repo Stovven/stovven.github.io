@@ -38,7 +38,8 @@
     font-weight: 800;
 }
 .sitelist{
-    float:right;
+    display: flex;
+    justify-content: flex-end;
     height: 100%
 }
 .sitelist a{
