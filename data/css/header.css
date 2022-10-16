@@ -37,10 +37,19 @@
 .logocontainer h1 span{
     font-weight: 800;
 }
+.logocontainer img {
+    margin-top: 0.3rem;
+}
 .sitelist{
     display: flex;
     justify-content: flex-end;
     height: 100%
+}
+.sitelist #home {
+    margin-top: -5px;
+}
+.sitelist #lqi {
+    margin-top: -0.5rem;
 }
 .sitelist a{
     height: 100%;
