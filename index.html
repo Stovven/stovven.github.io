@@ -8,22 +8,17 @@
         <meta content="https://stoven.net/" property="og:url" />
         <meta content="https://stoven.net/data/images/yot.png" property="og:image" />
         <meta content="#4ced77" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" href="/data/images/icon.ico">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script> 
+            $(function(){
+            $(".sidebar").load("data/shared/sidebar.html");
+            });
+        </script>
 </head>
 <body>
     <div class="center">
-        <div class="sidebar">
-            <div class="sidebartitle">
-                <p>stoven.net v3</p>
-            </div>
-            <div class="sidebarcontent">
-                <div class="sidebartemplate">
-                    <a href="/index"><p>home</p></a>
-                </div>
-                <div class="sidebartemplate">
-                    <a href="/request"><p>low quality images</p></a>
-                </div>
-            </div>
-        </div> 
+        <div class="sidebar"></div>
         <div class="maincontent">
             <div class="title">
                 <p>welcome to stoven.net v3 i think?? idk new site front page</p>
@@ -36,7 +31,6 @@
                     <img src="/data/images/yot.png">
                     <p style="font-size: 15px;">yotsuba</p>
                 </div>
-                <!-- <div class="bodybox"></div> -->
             </div>
         </div>
     </div>

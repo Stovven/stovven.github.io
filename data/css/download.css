@@ -1,95 +1,11 @@
-#mainbody p {
-    font-size: 30px;
-}
-body {
-    background-color: #ce8689;
-    background-image: url('../images/s2oe10.png');
-    background-size: 50%;
+.downloadcontent {
     display: flex;
+    align-content: center;
+    justify-content: center;
     flex-direction: column;
-    margin-bottom:50px;
-}
-#mainbody {
-    font-family: 'Mali';
+    background-color: #9361ea;
+    background-image: url('/data/images/s2oe10.png');
+    background-size: 80%;
+    width: 80%;
     text-align: center;
-    flex: 1 1 auto;  /*grow vertically*/
-}
-#mainbody h1{
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-#mainbody p {
-    font-size: 25px;
-}
-#title {
-    font-family: 'Mali';
-    text-align: center;
-    color: white;
-}
-#mainbody .penis {
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-#bg {
-    background-color: black;
-    background-image: url('../images/s2bg2.png');
-    color: white;
-    rotate: 0.5deg;
-    margin-top: 20px;
-    height: 100%;
-    border-right-style: solid;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-right-width: 0px;
-    display: flex;
-    vertical-align: top;
-    margin-bottom: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 10px;
-    gap: 10%;
-}
-#bg img {
-    align-self: center;
-    
-}
-#bg p {
-    align-self: center;
-    
-}
-
-#bg2 {
-    background-color: white;
-    background-image: url('../images/s2bg1.png');
-    background-size: 100%;
-    color: black;
-    rotate: -0.5deg;
-    margin-top: 20px;
-    height: 100%;
-    border-right-style: solid;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-right-width: 0px;
-    display: flex;
-    vertical-align: top;
-    margin-bottom: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 10px;
-    gap: 10%;
-}
-#bg2 img {
-    align-self: center;
-}
-#bg2 p {
-    align-self: center;
-    
 }
