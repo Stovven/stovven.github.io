@@ -1,68 +1,102 @@
-<!doctype html>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-</style> 
-<link rel="stylesheet" href="data/css/request.css">
-<link rel="stylesheet" href="data/css/header.css">
-<link rel="stylesheet" href="data/css/footer.css">
-<link rel="icon" href="data/images/icon.ico">
-<html>
-    <head>
-        <title>stoven.net v2</title>
-        <meta content="stoven.net v2" property="og:title" />
-        <meta content="i get knocked down but i get up again" property="og:description" />
+<!DOCTYPE html>
+<link rel="stylesheet" href="data/css/index2.css">
+<link rel="stylesheet" href="data/css/request2.css">
+<html lang="en">
+<head>
+        <title>stoven.net v3</title>
+        <meta content="stoven.net v3" property="og:title" />
+        <meta content="something something, website!" property="og:description" />
         <meta content="https://stoven.net/" property="og:url" />
         <meta content="https://stoven.net/data/images/yot.png" property="og:image" />
         <meta content="#4ced77" data-react-helmet="true" name="theme-color" />
+        <link rel="icon" href="/data/images/icon.ico">
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script> 
             $(function(){
-            $("#header").load("data/shared/header.html"); 
-            $("#footer").load("data/shared/footer.html"); 
+            $(".sidebar").load("data/shared/sidebar.html");
             });
-        </script> 
-    </head>
-    <body>
-        <div id="header"></div>
-        <div id="mainbody">
-        <h1>welcome to low quality requested images</h1>
-        <p class="penis" >they're shitty, go request one in the back corner of my room</p>
-        <div id="bg2">
-            <img src="/data/images/jones.png" width="25%">
-            <img src="/data/images/thisimage.png" width="25%">
-            <p>requested by bigportal (we're gonna need a bigger portal)</p>
+        </script>
+</head>
+<body>
+    <div class="center">
+        <div class="sidebar"></div>
+        <div class="maincontent">
+            <div class="title">
+                <p>low quality images (again)</p>
+            </div>
+            <div class="title2">
+                <p>they're all in shit quality, go request some at your nearest ditch</p>
+            </div>
+            <div class="content">
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by bigportal</p>
+                    </div>
+                    <div class="displaycontent">
+                        <img src="/data/images/jones.png">
+                        <img src="/data/images/thisimage.png">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by gezer</p>
+                    </div>
+                    <div class="displaycontent">
+                        <img src="/data/images/ninja3.png" style="width: 45%;">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by drew</p>
+                    </div>
+                    <div class="displaycontent">
+                        <img src="/data/images/ninja.png">
+                        <img src="/data/images/jerma.png" style="width: 15%;">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by snoof</p>
+                    </div>
+                    <div class="displaycontent">
+                        <img src="/data/images/ninja2.png" width="60%">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by jatmoz</p>
+                    </div>
+                    <div class="displaycontent">
+                    <img src="/data/images/farmer.png" style="width: 15%;">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by osha</p>
+                    </div>
+                    <div class="displaycontent">
+                    <img src="/data/images/thisgoes.jpg" style="width: 20%;">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by wavetro</p>
+                    </div>
+                    <div class="displaycontent">
+                    <img src="/data/images/smokeythegod.png" style="width: 20%;">
+                    </div>
+                </div>
+                <div class="displaybox">
+                    <div class="displayheader">
+                        <p>requested by beta</p>
+                    </div>
+                    <div class="displaycontent">
+                    <img src="/data/images/how-1.png" style="width: 70%;">
+                    </div>
+                </div>
+                <div style="padding: 50px 50px 50px 50px;"></div>
+            </div>
         </div>
-        <div id="bg">
-            <p>requested by gezer</p>
-            <img src="/data/images/ninja3.png" width="60%">
-        </div>
-        <div id="bg2">
-            <img src="/data/images/ninja.png" width="25%">
-            <img src="/data/images/jerma.png" width="25%">
-            <p>requested by drew</p>
-        </div>
-        <div id="bg">
-            <p>requested by snoof</p>
-            <img src="/data/images/ninja2.png" width="60%">
-        </div>
-        <div id="bg2">
-            <img src="/data/images/farmer.png" width="25%">
-            <p>requested by jatmoz</p>
-        </div>
-        <div id="bg">
-            <p>requested by osha</p>
-            <img src="/data/images/thisgoes.jpg" width="60%">
-        </div>
-        <div id="bg2">
-            <img src="/data/images/funy0n.png" width="10%">
-            <p>requested by funy0n</p>
-        </div>
-        <div id="bg">
-            <p>requested by wavetro</p>
-            <img src="/data/images/smokeythegod.png" width="50%">
-        </div>
-        </div>
-    <div id="footer"></div>
-    </body>
-</html>
+    </div>
+</body>
+</html> 
