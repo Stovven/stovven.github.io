@@ -122,3 +122,19 @@ html, body {
 .bodybox img {
     width: 15%;
 }
+.madewith {
+    width: 11%;
+    height: 4%;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    background-image: url('/data/images/s2bg2.png');
+
+}
+.madewith p {
+    color: white;
+    font-size:15px;
+    font-family: awful;
+    rotate: -2deg;
+    text-align: center;
+}
