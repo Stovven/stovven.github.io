@@ -138,3 +138,23 @@ html, body {
     rotate: -2deg;
     text-align: center;
 }
+
+.bodybox2 {
+    background-color: cadetblue;
+    width: 80%;
+    height: 50%;
+    margin-bottom: 2%;
+    background-image: url('/data/images/s2oe10.png');
+    background-size: 60%;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#hackjob {
+    justify-content: center;
+}
+
+#hackjob2 {
+    height: 20% !important;
+    width: 45%;
+}
